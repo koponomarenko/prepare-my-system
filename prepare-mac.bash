@@ -3,6 +3,7 @@
 #TODO: ensure that the script is not started with 'sudo'
 
 cp vimrc $HOME/.vimrc
+cp update-ports.bash $HOME/.
 
 
 echo "MacPorts need some tools..."

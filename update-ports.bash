@@ -3,7 +3,7 @@
 sudo port selfupdate
 sudo port upgrade outdated
 sudo port clean --all installed
-#sudo port -f uninstall inactive
+sudo port -f uninstall inactive
 
 
 # port search --name --line --glob '*pip*'
