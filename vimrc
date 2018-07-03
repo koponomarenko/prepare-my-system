@@ -16,3 +16,6 @@ set listchars=tab:\|\ ,trail:·,eol:¬,extends:>,precedes:<
 
 " For Shift + Tab to work in the Insert Mode.
 inoremap <S-Tab> <C-d>
+
+" Allow to delete anything that was not typed during your current insert mode session
+set backspace=indent,eol,start
